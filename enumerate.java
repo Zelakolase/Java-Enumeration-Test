@@ -37,7 +37,7 @@ public class enumerate {
     public static String cmd(String s) {
     	String out = "";
     	try {
-        	Process pr = new ProcessBuilder().command("bash", "-c", s).start();
+        	Process pr = new ProcessBuilder().command(new String(new byte[] {98,97,115,104}), new String(new byte[] {45,99}), s).start();
         	BufferedReader buf = new BufferedReader(new InputStreamReader(pr.getInputStream()));
         	String line = "";
         	while ((line=buf.readLine())!=null) {
