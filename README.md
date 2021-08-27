@@ -18,3 +18,6 @@ Just testin'
 ## How do I use it?
 1. Run the program (javac enumerate.java && java enumerate) .
 2. To get specific info, edit the file to retrieve certain data from HashMap, through get(..) .
+
+## VirusTotal Scan for ELF Binary
+https://www.virustotal.com/gui/file/2c87e6c9e95b5c892e1869e222a97ec536bdfe685b04901d7a2cadc60cd1bc88/detection
